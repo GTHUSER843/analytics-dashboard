@@ -1,31 +1,34 @@
-# 🏨 analytics-dashboard
+# 🏨 Hotel Booking Analytics Dashboard
 
-A Streamlit dashboard for hotel KPI analytics built using **Python**, **Pandas**, **Altair**, and **MySQL**. The dashboard helps visualize key performance indicators like revenue, occupancy rate, and cancellations.
+A Streamlit-powered dashboard for analyzing hotel booking trends using **Google Sheets** as a live backend. This app enables teams to track and update booking insights in real-time without hosting a database.
 
 ---
 
 ## 📊 Features
 
-- Insert and manage hotel booking records
-- Visualize key metrics (total bookings, revenue, cancellation rate)
-- Interactive filters by date and hotel
-- Charts: revenue by channel, occupancy trends, and hotel-wise bookings
-- Export full data as CSV
+- Add and store hotel booking records directly into Google Sheets
+- Key KPIs: Total bookings, Total revenue, Cancellation rate
+- Live metrics and trends from synced spreadsheet
+- Filters: date range and hotel-specific filtering
+- Charts:
+  - 📊 Revenue by booking channel (bar)
+  - 📉 Occupancy rate trends over time (line)
+  - 🥧 Hotel-wise booking count (donut chart)
+- Export current dataset as CSV
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Streamlit
-- **Backend:** Python, MySQL
-- **Data Processing:** Pandas
-- **Visualization:** Altair
+- **Frontend**: Streamlit
+- **Backend/Storage**: Google Sheets via Service Account
+- **Libraries**: pandas, plotly, altair, gspread, oauth2client
 
 ---
 
-## 🗃️ Sample Dataset
+## 🗃️ Sample Dataset (Optional for Testing)
 
-You can use the sample CSV below if not connected to a database:
+If you're not using Google Sheets, test locally with the CSV:
 
 🔗 [Download sample_data.csv](./sample_data.csv)
 
@@ -36,10 +39,59 @@ You can use the sample CSV below if not connected to a database:
 
 ---
 
-## 🚀 Run the App Locally
+## 🚀 Running Locally (With Google Sheets)
 
 ```bash
 git clone https://github.com/GTHUSER843/analytics-dashboard.git
 cd analytics-dashboard
 pip install -r requirements.txt
+
+# Add your service account credentials file locally
+# Ensure the file is named: credentials.json
 streamlit run app.py
+```
+
+---
+
+## 🌐 Deployment on Streamlit Cloud
+
+1. **Push** code to GitHub (exclude `credentials.json` from repo)
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. In **Settings > Secrets**, paste:
+   ```toml
+   GOOGLE_SHEETS_CREDENTIALS = """{ ...full JSON key here... }"""
+   ```
+4. Deploy the app! Live insert + dashboard features will work seamlessly
+
+---
+
+## 📦 Requirements
+
+```txt
+streamlit
+pandas
+gspread
+oauth2client
+plotly
+altair
+```
+
+---
+
+## 🎯 Use Cases
+
+- Hotel and resort analytics
+- Educational projects on live dashboards
+- NoSQL backend dashboards using Google Sheets
+
+---
+
+## 📸 Preview (Add your screenshots here)
+
+---
+
+## 👤 Author
+
+Developed by **Sahil Tambe**  
+📫 [LinkedIn](https://www.linkedin.com/in/yourprofile)  
+📧 sahiltambe@example.com
