@@ -1,0 +1,51 @@
+booking_date,hotel_name,room_type,occupancy_rate,revenue,guest_nationality,booking_channel,is_cancelled
+2024-05-08,Hotel Taj,Deluxe,73.9,23226,France,Online,0
+2024-05-01,The Urban Stay,Suite,69.4,18832,USA,Online,0
+2024-05-21,Hotel Taj,Standard,71.0,16560,USA,Corporate,0
+2024-05-02,Sea Breeze Inn,Economy,67.7,11757,France,Direct,0
+2024-05-12,The Urban Stay,Suite,57.1,9836,Canada,Online,1
+2024-05-25,Grand Lotus,Executive,75.4,17825,Germany,Online,1
+2024-05-13,Hotel Taj,Economy,99.0,22339,France,Online,0
+2024-05-31,Hotel Taj,Executive,62.0,17362,Germany,Travel Agent,1
+2024-05-29,Palm Heights,Standard,76.6,23552,France,Corporate,1
+2024-05-07,Hotel Taj,Suite,54.6,7667,India,Online,1
+2024-05-27,Grand Lotus,Deluxe,70.6,7021,Canada,Direct,0
+2024-05-14,Palm Heights,Economy,83.4,14228,USA,Travel Agent,1
+2024-05-23,Hotel Taj,Standard,52.1,20294,Canada,Direct,0
+2024-05-06,Hotel Taj,Economy,91.0,16326,UK,Corporate,0
+2024-05-04,The Urban Stay,Suite,62.1,8391,India,Direct,0
+2024-05-29,Palm Heights,Executive,71.9,24580,Australia,Direct,0
+2024-05-02,Palm Heights,Standard,60.3,17738,Australia,Online,0
+2024-05-18,Grand Lotus,Executive,56.6,13320,Australia,Online,1
+2024-05-08,The Urban Stay,Deluxe,77.4,18694,Canada,Direct,1
+2024-05-11,The Urban Stay,Suite,70.2,6158,UK,Corporate,1
+2024-05-13,Grand Lotus,Standard,86.6,24644,India,Travel Agent,1
+2024-05-26,The Urban Stay,Deluxe,96.8,14405,USA,Travel Agent,0
+2024-05-18,Hotel Taj,Standard,81.9,6230,Australia,Corporate,0
+2024-05-31,Grand Lotus,Suite,76.0,24665,UK,Corporate,1
+2024-05-06,Hotel Taj,Economy,65.9,19197,Australia,Travel Agent,1
+2024-05-08,Sea Breeze Inn,Deluxe,54.6,7959,France,Corporate,0
+2024-05-08,Palm Heights,Standard,69.1,19023,Germany,Travel Agent,1
+2024-05-16,Grand Lotus,Suite,77.8,7690,Australia,Online,1
+2024-05-17,The Urban Stay,Executive,74.4,15278,France,Travel Agent,0
+2024-05-26,Grand Lotus,Economy,64.0,12222,Australia,Direct,1
+2024-05-22,Palm Heights,Suite,56.1,15606,UK,Online,0
+2024-05-25,The Urban Stay,Standard,95.8,11020,Japan,Corporate,1
+2024-05-28,Sea Breeze Inn,Deluxe,71.8,21130,Japan,Online,1
+2024-05-05,Grand Lotus,Deluxe,56.2,13589,USA,Direct,1
+2024-05-09,Palm Heights,Executive,99.7,6266,UK,Online,0
+2024-05-23,Palm Heights,Suite,57.6,24332,USA,Direct,1
+2024-05-22,Sea Breeze Inn,Executive,68.0,6730,India,Travel Agent,1
+2024-05-14,The Urban Stay,Economy,63.4,6393,India,Corporate,0
+2024-05-13,Hotel Taj,Deluxe,87.3,19331,UK,Corporate,1
+2024-05-30,Hotel Taj,Economy,93.1,10878,USA,Direct,1
+2024-05-06,Palm Heights,Standard,81.1,19919,USA,Online,1
+2024-05-13,Palm Heights,Suite,85.9,8302,Japan,Corporate,0
+2024-05-29,Sea Breeze Inn,Economy,65.2,24949,USA,Travel Agent,0
+2024-05-24,Palm Heights,Executive,98.6,21671,Canada,Online,0
+2024-05-22,Grand Lotus,Deluxe,58.7,16311,Germany,Online,0
+2024-05-30,Palm Heights,Suite,70.0,14520,Germany,Direct,1
+2024-05-04,Hotel Taj,Executive,90.0,10044,Australia,Corporate,1
+2024-05-27,Grand Lotus,Executive,63.5,5398,UK,Travel Agent,1
+2024-05-23,Palm Heights,Economy,79.7,22080,France,Corporate,1
+2024-05-11,Hotel Taj,Economy,70.0,20702,France,Travel Agent,0
