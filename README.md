@@ -1,9 +1,6 @@
 # 🏨 Hotel Booking Analytics Dashboard
 
 A Streamlit-powered dashboard for analyzing hotel booking trends using **Google Sheets** as a live backend. This app enables teams to track and update booking insights in real-time without hosting a database.
-
-![Dashboard Screenshot](preview.png)
-
 ---
 
 ## 📊 Features
