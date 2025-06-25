@@ -1,4 +1,6 @@
 streamlit
 pandas
-mysql-connector-python
+gspread
+oauth2client
+plotly
 altair
