@@ -2,6 +2,8 @@
 
 A Streamlit-powered dashboard for analyzing hotel booking trends using **Google Sheets** as a live backend. This app enables teams to track and update booking insights in real-time without hosting a database.
 
+![Dashboard Screenshot](preview.png)
+
 ---
 
 ## 📊 Features
@@ -38,33 +40,6 @@ If you're not using Google Sheets, test locally with the CSV:
 | 2024-05-02   | Sea Breeze Inn   | Standard  | 75.0           | 8000    | UK                | Direct           | 0            |
 
 ---
-
-## 🚀 Running Locally (With Google Sheets)
-
-```bash
-git clone https://github.com/GTHUSER843/analytics-dashboard.git
-cd analytics-dashboard
-pip install -r requirements.txt
-
-# Add your service account credentials file locally
-# Ensure the file is named: credentials.json
-streamlit run app.py
-```
-
----
-
-## 🌐 Deployment on Streamlit Cloud
-
-1. **Push** code to GitHub (exclude `credentials.json` from repo)
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. In **Settings > Secrets**, paste:
-   ```toml
-   GOOGLE_SHEETS_CREDENTIALS = """{ ...full JSON key here... }"""
-   ```
-4. Deploy the app! Live insert + dashboard features will work seamlessly
-
----
-
 ## 📦 Requirements
 
 ```txt
@@ -86,12 +61,7 @@ altair
 
 ---
 
-## 📸 Preview (Add your screenshots here)
-
----
-
 ## 👤 Author
 
 Developed by **Sahil Tambe**  
-📫 [LinkedIn](https://www.linkedin.com/in/yourprofile)  
-📧 sahiltambe@example.com
+📧 sahiltambe340@gmail.com
