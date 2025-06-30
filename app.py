@@ -23,14 +23,14 @@ def dashboard():
             data = sheet.get_all_records()
             return pd.DataFrame(data)
         except Exception as e:
-            st.error(f"❌ Failed to fetch data: {e}")
+            st.error(f"Failed to fetch data: {e}")
             return pd.DataFrame()
 
     def insert_data(data):
         try:
             sheet.append_row(data)
         except Exception as e:
-            st.error(f"❌ Failed to insert data: {e}")
+            st.error(f"Failed to insert data: {e}")
 
     st.markdown("""
         <style>
